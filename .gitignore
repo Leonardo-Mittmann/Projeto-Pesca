@@ -1,0 +1,23 @@
+# Ignora todos os arquivos e pastas na raiz
+/*
+
+# Permite o próprio .gitignore
+!.gitignore
+
+# Permite as pastas específicas e todo o seu conteúdo
+!database/
+!database/**
+!views/
+!views/**
+!workers/
+!workers/**
+
+# Permite os arquivos específicos
+!best.pt
+!main.py
+!OCR.py
+!video_teste.mp4
+
+# Ignora caches do Python que possam existir dentro das pastas permitidas
+__pycache__/
+*.py[cod]
